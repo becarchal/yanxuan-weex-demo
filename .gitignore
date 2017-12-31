@@ -7,20 +7,24 @@
 *.log
 .idea
 npm-debug.log*
+package-lock.json
+
 
 # dependencies
 /node_modules
+
+build/
+*/build/
+.idea/
+.gradle/
+local.properties
+.settings/
 
 # cache files
 .DS_Store
 .npm
 
 # middle compile files
-/src/sprites/*
-
-# build results
-#/pub/
-#/entry/
 
 # local configs
 lauch.json
@@ -30,10 +34,7 @@ lauch.json
 #nei
 /mock/
 /plugins/*
-/platforms/*
 /dist/
 /temp/
 assets/tools/
 
-!/platforms/README.md
-!/plugins/README.md
